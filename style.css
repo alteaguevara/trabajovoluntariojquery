@@ -1,0 +1,65 @@
+#juego {
+    display: flex;
+    justify-content: center;
+}
+
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    border: 3px solid black;
+    padding: 0px;
+}
+
+.casilla {
+    border: 3px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: Black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#jugador {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: Black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+#boton {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#boton {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    padding: 10px;
+    width: 160px;
+}
+
+#centrar {
+    display: flex;
+    justify-content: center;
+}
